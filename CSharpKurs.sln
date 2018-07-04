@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphismus", "Polymorphismus\Polymorphismus.csproj", "{24DC3B94-AD6F-46BF-B2ED-F23F2805880B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingApp", "..\..\..\OneDrive - ppedv AG\KURSE\CSharp_Grundlagen\Kurs_19.06.2018\HelloWorld\BankingApp\BankingApp.csproj", "{AAEBBE7F-3B77-45E8-95BC-DC624011FDD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{24DC3B94-AD6F-46BF-B2ED-F23F2805880B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24DC3B94-AD6F-46BF-B2ED-F23F2805880B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24DC3B94-AD6F-46BF-B2ED-F23F2805880B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAEBBE7F-3B77-45E8-95BC-DC624011FDD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAEBBE7F-3B77-45E8-95BC-DC624011FDD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAEBBE7F-3B77-45E8-95BC-DC624011FDD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAEBBE7F-3B77-45E8-95BC-DC624011FDD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

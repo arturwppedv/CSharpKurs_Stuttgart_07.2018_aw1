@@ -44,12 +44,12 @@ namespace Polymorphismus
                     (person as Kind).Spielkammeraden = 4;
 
                 Console.WriteLine(person);
-                //if(person is Kind)
-                //    Console.WriteLine("Kind");
-                //else if(person is Vater)
-                //    Console.WriteLine("Vater");
-                //else if(person is Mutter)
-                //    Console.WriteLine("Mutter");
+                if (person is Kind)
+                    Console.WriteLine("Kind");
+                else if (person is Vater)
+                    Console.WriteLine("Vater");
+                else if (person is Mutter)
+                    Console.WriteLine("Mutter");
             }
 
             Console.ReadKey();
