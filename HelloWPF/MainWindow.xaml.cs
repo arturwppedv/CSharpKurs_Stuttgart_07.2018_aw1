@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Threading;
 
 namespace HelloWPF
@@ -20,6 +21,9 @@ namespace HelloWPF
             InitializeComponent();
 
             txtb_Name.Focus();
+
+            //Eine neue Spalte zu der ListView hinzufügen
+            //(lstv_Personen.View as GridView).Columns.Add(new GridViewColumn() { Header = "Fahrzeug" });
 
             //Die Personenliste dient als Quelle für die Tabelle (ListView)
             lstv_Personen.ItemsSource = personenListe;

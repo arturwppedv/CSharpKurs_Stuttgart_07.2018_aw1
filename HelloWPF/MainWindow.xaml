@@ -7,14 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btn_ClickMe" Content="Click me" HorizontalAlignment="Left" Margin="604,104,0,0" VerticalAlignment="Top" Width="175" Height="62" Click="btn_ClickMe_Click"/>
-        <Label x:Name="lbl_Text" Content="Text im Label" HorizontalAlignment="Left" Margin="646,24,0,0" VerticalAlignment="Top"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="177*"/>
+            <ColumnDefinition Width="617*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="btn_ClickMe" Content="Click me" HorizontalAlignment="Left" Margin="427.45,104,0,0" VerticalAlignment="Top" Width="175" Height="62" Click="btn_ClickMe_Click" Grid.Column="1"/>
+        <Label x:Name="lbl_Text" Content="Text im Label" HorizontalAlignment="Left" Margin="469.45,24,0,0" VerticalAlignment="Top" Grid.Column="1"/>
         <TextBox x:Name="txtb_Name" HorizontalAlignment="Left" Height="23" Margin="26,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132"/>
         <Label Content="Name" HorizontalAlignment="Left" Margin="26,10,0,0" VerticalAlignment="Top"/>
         <Label Content="Vorname" HorizontalAlignment="Left" Margin="26,86,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtb_Vorname" HorizontalAlignment="Left" Height="23" Margin="26,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132"/>
         <Button x:Name="btn_Hinzufuegen" Content="Hinzufügen" HorizontalAlignment="Left" Margin="26,170,0,0" VerticalAlignment="Top" Width="132" Height="35" Click="btn_Hinzufuegen_Click"/>
-        <ListView x:Name="lstv_Personen" HorizontalAlignment="Left" Height="100" Margin="26,236,0,0" VerticalAlignment="Top" Width="210">
+        <ListView x:Name="lstv_Personen" HorizontalAlignment="Left" Height="100" Margin="26,236,0,0" VerticalAlignment="Top" Width="210" Grid.ColumnSpan="2">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Vorname" Width="100" DisplayMemberBinding="{Binding Vorname}"/>
