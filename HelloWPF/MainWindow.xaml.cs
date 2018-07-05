@@ -13,6 +13,8 @@ namespace HelloWPF
     {
         private int _Countdown = 15;
         private List<Person> personenListe = new List<Person>();
+        private JsonService jService = new JsonService();
+        private DatabaseService dbService = new DatabaseService();
 
         //Konstruktor
         public MainWindow()
@@ -24,6 +26,8 @@ namespace HelloWPF
 
             //Eine neue Spalte zu der ListView hinzufügen
             //(lstv_Personen.View as GridView).Columns.Add(new GridViewColumn() { Header = "Fahrzeug" });
+
+            personenListe = dbService.GetPeople();
 
             //Die Personenliste dient als Quelle für die Tabelle (ListView)
             lstv_Personen.ItemsSource = personenListe;
@@ -88,11 +92,14 @@ namespace HelloWPF
                     Nachname = txtb_Name.Text
                 };
 
+
                 //Neue Person wird in die Liste gelegt (Diese ist ja die Quelle der ListView)
                 personenListe.Add(neuePerson);
 
                 //ListView-Oberfläche wird aktualisiert
                 lstv_Personen.Items.Refresh();
+
+                dbService.Insert(neuePerson);
 
                 txtb_Name.Clear();
                 txtb_Vorname.Clear();
