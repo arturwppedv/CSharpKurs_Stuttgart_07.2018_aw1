@@ -37,9 +37,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{2A921CBA-3777-43B8-A84D-24ED46B278FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestingCore", "UnitTestingCore\UnitTestingCore.csproj", "{B0E808D3-2DD9-4B69-97FA-9B364AFBB256}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestingCore", "UnitTestingCore\UnitTestingCore.csproj", "{B0E808D3-2DD9-4B69-97FA-9B364AFBB256}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWPF_DatenSchreiben", "HelloWPF\HelloWPF_DatenSchreiben.csproj", "{EE320594-11C6-4F7A-A994-329AD8742410}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement_Musterlösung", "EmployeeManagement\EmployeeManagement_Musterlösung.csproj", "{5F059940-591B-4115-9176-5FFB943D44A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mitarbeiterverwaltung", "Mitarbeiterverwaltung\Mitarbeiterverwaltung.csproj", "{5EC6FB82-DB71-4D16-97A8-BBE98430ABCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +127,14 @@ Global
 		{EE320594-11C6-4F7A-A994-329AD8742410}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE320594-11C6-4F7A-A994-329AD8742410}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE320594-11C6-4F7A-A994-329AD8742410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F059940-591B-4115-9176-5FFB943D44A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F059940-591B-4115-9176-5FFB943D44A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F059940-591B-4115-9176-5FFB943D44A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F059940-591B-4115-9176-5FFB943D44A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EC6FB82-DB71-4D16-97A8-BBE98430ABCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EC6FB82-DB71-4D16-97A8-BBE98430ABCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EC6FB82-DB71-4D16-97A8-BBE98430ABCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EC6FB82-DB71-4D16-97A8-BBE98430ABCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
