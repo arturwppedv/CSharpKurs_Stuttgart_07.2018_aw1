@@ -45,12 +45,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement_Musterl√
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mitarbeiterverwaltung", "Mitarbeiterverwaltung\Mitarbeiterverwaltung.csproj", "{5EC6FB82-DB71-4D16-97A8-BBE98430ABCF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Slides", "Slides", "{209DE2C6-9BDB-4A24-AA06-1EDE020F8386}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\csharp\Abschlussaufgabe.pdf = ..\..\..\Desktop\csharp\Abschlussaufgabe.pdf
-		..\..\..\Desktop\csharp\CSharp_Slides_Komplett.pdf = ..\..\..\Desktop\csharp\CSharp_Slides_Komplett.pdf
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

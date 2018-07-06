@@ -115,6 +115,8 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="Slides\Abschlussaufgabe.pdf" />
+    <None Include="Slides\CSharp_Slides_Komplett.pdf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
